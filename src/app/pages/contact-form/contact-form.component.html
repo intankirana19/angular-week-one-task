@@ -1,0 +1,22 @@
+<section class="contact-page">
+  <h1>Hubungi Kami</h1>
+
+  <form [formGroup]="form" class="contact-form">
+    <label>
+      Nama
+      <input type="text" formControlName="name" />
+    </label>
+
+    <label>
+      Email
+      <input type="email" formControlName="email" />
+    </label>
+
+    <label>
+      Pesan
+      <textarea formControlName="message"></textarea>
+    </label>
+
+    <button type="submit" (click)="submitContactMessage()">Kirim</button>
+  </form>
+</section>

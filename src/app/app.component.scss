@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  background: var(--color-primary);
+}
+
+.nav {
+  margin: 0 auto;
+  padding: 16px;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  opacity: 0.85;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 40px auto;
+  padding: 0 16px;
+}
